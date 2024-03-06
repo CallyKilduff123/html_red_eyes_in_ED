@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+.navbar {
+    background-color: #253031; /* Dark background color */
+    overflow: hidden; /* Ensures the content is contained within the navbar */
+    position: fixed; /* Fixed positioning to keep it at the top */
+    top: 0; /* Align to the top of the page */
+    width: 100%; /* Full width */
+    align-items: center;
+    z-index: 1000; /* Ensures navbar stays on top of other content */
+}
+
+.nav-button {
+    display: inline-block; /* Display links inline */
+    color: white; /* Text color */
+    text-align: left; /* left align the text inside the link */
+    padding: 100px 100px; /* Padding for spacing around the text */
+    text-decoration: none; /* No underline on the text */
+    font-size: 17px; /* Font size */
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.nav-button:hover {
+    background-color: #ddd; /* Light grey background on hover */
+    color: black; /* Text color change on hover */
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #315659;
+    color: white;
+    
+}
+
+.a {
+    color: white;
+}
+
+.card-index {
+    width: fit-content;
+    height: auto;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px; /* Adjusts the space between cards */
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 400px; /* Adjust based on preference */
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+
+}
+
+.card-image-condition {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.card-header,
+.card-body,
+.card-button {
+    padding: 10px;
+    text-align: center;
+}
+
+.card-button {
+    background-color: #253031;
+    color: white;
+    border: white;
+    cursor: pointer;
+    width: 100%;
+}
+
+.content {
+    text-align: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.text-below-cards {
+    display: flex;
+    margin-top: 30px; /* Adjust space between the cards and the text */
+    padding: 10px;
+    color: white;
+    font-size: small;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 40px; /* Adjust as needed */
+    padding: 20px;
+    background-color: #333; /* Dark background for the footer */
+    color: white; /* Text color */
+    text-align: center;
+    width: 100%;
+    position: fixed; /* Change to 'absolute' if you want it always at the bottom */
+    bottom: 0;
+}    
+
+.accordion-header {
+    font-size: small;
+    background-color: #9D5C63;
+
+}
+
+.accordion-body {
+    text-align: left;
+    font-size: small;
+    
+}
+
+.accordion-item {
+    font-size: smaller;
+    
+}

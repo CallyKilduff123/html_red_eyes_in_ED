@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Red flag features</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/stylesheet_redeye.css">
+
+</head>
+<body>
+
+    <!-- Nav bar with home, back and search options -->
+<nav class="navbar">
+  <div class="container-fluid">
+    <a class="nav-link" aria-current="page" href="1_index.html">Home</a>
+    <a class="nav-link" onclick="javascript:history.back()">Back</a>
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+<!-- Title of page -->
+
+<div class="content">
+  <h2 class="main-header">Question: Any red flag features present?</h2>
+
+
+
+<!-- list of red flag features with accordian -->
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Eye surgery or injection within 4 weeks
+            </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">The ophthalmology team would be concerned about endophthalmitis. This is a sight-threatening infection inside the eye and needs to be treated immediately. It can also be caused by injury to the eye or from blebitis from prior glaucoma surgery.
+            </div>
+        </div>
+        </div>
+        <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Headache +/- eye pain +/- nausea and vomiting
+            </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">The ophthalmology team would be concerned about an acute pressure rise in the eye. This needs to be treated immediately. Other signs and symptoms can include a fixed mid-dilated pupil, cloudy cornea, reduced vision and haloes when looking at light.</div>
+        </div>
+        </div>
+        <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Severe pain in the affected eye
+            </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Many conditions cause pain in a red eye, but if the pain is severe, e.g. waking the patient from sleep, it can indicate inflammation in the eye. The ophthalmology team would be concerned about scleritis in particular.</div>
+        </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                Reduced vision
+            </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Any acute loss of vision in a red eye requires immediate attention from the ophthalmology team. If you can, try to assess what baseline vision was, the timeline of vision loss and try to measure vision if you have a chart available.</div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                Trauma or chemical injury
+            </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Any trauma to the eye requires a thorough dilated examination by the ophthalmology team. High-velocity, blunt or chemical trauma are particularly concerning. Please note: in chemical injury, the eye must be irrigated throroughly until the pH 7 - follow local or RCEM guidance. Exclude systemic injuries.</div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseThree">
+                Copious unilateral purulent discharge
+            </button>
+            </h2>
+            <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Conjunctivitis can cause mucopurulent discharge, beware of profuse purulent discharge i.e. pus reforming soon after wiping, particularly in unilateral cases. Take a sexual history and test for gonorrhoea. Untreated, gonococcal keratoconjunctivitis can rapidly lead to corneal perforation.</div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven" aria-expanded="false" aria-controls="flush-collapseSeven">
+                Photophobia
+            </button>
+            </h2>
+            <div id="flush-collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">This can be a symptom of acute inflammation or infection inside the eye, or an acute corneal problem e.g. ulcers or foreign bodies. Systemic causes of photophobia, such as meningitis should also be considered. </div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseEight" aria-expanded="false" aria-controls="flush-collapseEight">
+                Contact lens wear
+            </button>
+            </h2>
+            <div id="flush-collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">In a contact lens wearer, you would be concerned about a corneal infection or ulcer. Ulcers would appear as opacities on the cornea and would stain with fluoroscein under blue light. These would require immediate treatment.</div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseNine" aria-expanded="false" aria-controls="flush-collapseNine">
+                Red eye with proptosis
+            </button>
+            </h2>
+            <div id="flush-collapseNine" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Conditions of concern would include thyroid eye disease, orbital cellulitis, retro-bulbar haematoma or a carotid-cavernous fistula. These all require urgent medical and ophthalmic attention.</div>
+            </div>
+        </div>
+    </div>
+    <a href="3_unilateral_or_bilateral.html"> <button class="card-button"> No obvious red flags</button></a>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

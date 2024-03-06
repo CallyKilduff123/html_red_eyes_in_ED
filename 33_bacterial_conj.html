@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Bacterial conjunctivitis</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/stylesheet_redeye.css">
+
+</head>
+<body>
+
+    <!-- Nav bar with home, back and search options -->
+<nav class="navbar">
+  <div class="container-fluid">
+    <a class="nav-link" aria-current="page" href="1_index.html">Home</a>
+    <a class="nav-link" onclick="javascript:history.back()">Back</a>
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+<!-- Title of page -->
+
+<div class="content">
+  <h2 class="main-header">Bacterial</h2>
+  <h2 class="main-header">CONJUNCTIVITIS</h2>
+
+ 
+
+  <!-- image -->
+
+  <div class="card">
+    <img src="images/red_eye.jpg" alt="red eye illustration" class="card-image">
+  </div>
+
+  <br>
+
+<!-- accordion -->
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Clinical presentation
+            </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                acute onset (7-10d), red gritty eye, usually BL but may be sequential. Purulent discharge, crusted eyelids +/- chemosis (swelling of the conjunctiva).</div>
+            </div>
+        <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Common management
+            </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Chloramphenicol 1% ointment QDS for 7 days. Hand hygiene measures. Advise patient to follow up in A&E or with GP if no resolution <a href="https://www.esht.nhs.uk/wp-content/uploads/2020/12/0869.pdf" target="_blank"> More information here.</a>
+                </div>
+        </div>
+        </div>
+        <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Referral triage - ALWAYS follow local protocol
+            </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body"> Refer urgently ( within 24h) if worsening/ no resolution, or if blurred vision and corneal staining with fluorescein. If  gonococcus or chlamydia suspected refer immediately.
+            </div>
+        </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                Safety netting
+            </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Have a low threshold to refer within 24h if <a href="36_CLAK.html" target="_blank">contact lens wear</a>. Beware of gonoccocus/chlamydia especially if unilateral and <a href="34_gon_conj.html" target="_blank">hyperpurulent</a>. If in doubt, take a sexual history, swab the conjunctiva and refer to ophthalmology immediately. Consider IM antibiotics as per local protocol.
+            </div>
+        </div>
+        </div>
+
+    </div>
+    <!-- <a onclick="javascript:history.back()"> <button class="card-button">Let's go back a page</button></a> -->
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
